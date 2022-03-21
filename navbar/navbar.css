@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background:#252839 ;
+}
+
+.creative2nd{
+    position: relative;
+    font-size: 6vw;
+    /* display: flex;
+    justify-content: center; */
+    color: #252839;
+    -webkit-text-stroke: 0.1vw #329d52;
+}
+
+.pWaladesign{
+position: relative;
+font-size: 1.5vw;
+
+}
+
+.creative2nd::before{
+content: attr(data-text);
+position: absolute;
+top:0;
+left: 0;
+width: 0;
+height: 100%;
+color: #01fe87;
+-webkit-text-stroke: 0vw #383d52;
+border-right:2px solid #01fe87 ;
+overflow: hidden;
+animation: animate 10s linear infinite;
+}
+
+
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+
+.belowImage{
+  
+    border-radius: 20px;
+ 
+}
+
+.imgBorder{
+    
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    
+    background: #000;
+border-radius: 20px;
+}
+.box{
+    position: relative;
+    /* left: 40%; */
+    width: 90%;
+    height: 37vh;
+    /* border: 3px solid green; */
+    background:rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+
+.box::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 200%;
+    background: linear-gradient(#00ccff,#ac00ac);
+    animation: animateproject 4s linear infinite;
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    inset: 7px;
+    background: #252839;
+    border-radius: 40px;
+}
+
+.box img{
+    position: relative;
+    left: 8%;
+    width: 80%;
+    height: 27vh;
+    z-index: 10;
+    border-radius: 25px;
+}
+
+.box button{
+    position: relative;
+    top: 40%;
+    right: 30%;
+    z-index: 10;
+    font-size: 1vh;
+    color: white;
+    background: #252839;
+}
+
+
+@keyframes animateproject{
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(350deg);
+    }
+}
+
+
+
+.footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 3.5rem 0;
+    display: block;
+
+}
+
+
+
+
