@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Shaping{" "}
+                Transforming{" "}
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word) => (
@@ -43,11 +43,13 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>into Digital Functional Products</h1>
+              <h1>that Speak for Themselves</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi my name is sachin , a software developer from India
+              Hi my name is sachin , a 🚀 Full Stack Developer | 3+ Yrs
+              Experience Delivered 20+ products using MERN, Next.js, and React
+              Native I build fast, scalable, and impactful apps — web or mobile.
             </p>
             <Button
               text="See My Work"

@@ -394,6 +394,18 @@ section {
   );
 }
 
+/* Wavy text */
+.wave-container {
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.wave-char {
+  display: inline-block;
+  font-size: 1.7rem;
+}
+
+
+
 /* marquee */
 .marquee {
   width: 100dvw;

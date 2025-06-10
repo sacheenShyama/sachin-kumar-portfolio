@@ -19,19 +19,19 @@ const navLinks = [
 
 const words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "visions", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "visions", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 2.5, suffix: "+", label: "Years of Experience" },
+  // { value: , suffix: "+", label: "Satisfied Clients" },
+  { value: 20, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -73,19 +73,24 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "🚀 Speed & Performance Obsessed",
+    desc: "I write optimized code that loads fast, runs smooth, and scales without a sweat.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "🧠 Smart Architecture",
+    desc: "Clean, modular, and scalable — I build systems that grow with your business.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "🤝 Client-Centric Approach",
+    desc: "I treat your project like my own, with full dedication, constant feedback, and zero surprises.",
+  },
+  {
+    title: "⚡️ Pixel-Perfect Execution",
+    desc: "Bringing designs to life with precision — every pixel, every detail, exactly how it should be.",
+  },
+  {
+    title: "🎯 Results That Matter",
+    desc: "Not just code — I deliver business value, whether it’s performance gains or user growth.",
   },
 ];
 
@@ -148,41 +153,40 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
+      "Mr. Sachin Kumar contributed effectively to our mobile development projects, demonstrating proficiency in React Native, Node.js, and database optimization. His services were terminated amicably in accordance with company policies.",
+    imgPath: "Sanius Health",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "React Native Developer",
+    date: "April 2024 - September 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Enhanced application performance by refactoring/Debugging a nested loop to a single loop, improving mobile appperformance by 100%",
+      "Resolved critical bugs in the React-natie (Android app) by implementing platform-specific conditions, achieving apermanent fix with zero recurrence.",
+      "Developed RESTful APIs (Node.js) from scratch, resolving critical issues and collaborating with the team to optimize SQL queries, boosting data retrieval speed by 40%.",
+      "Improved backend stability by implementing edge case handling in Node.js APIs, reducing backend crashes from 116,000 to zero I am using Sentry monitoring.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+      "This is to certify that Mr. Sachin Kumar was employed with Quantorix Technology for the period between 2-May-2022 to 22-April-2024 and was designated as Junior Full Stack Software Engineer.During the period of employment, we found the performance to be satisfactory.We wish him the best in all future endeavors.",
+    imgPath: "Quantorix Technology",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "May 2022 - April 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built and deployed a draft system from scratch using Node.js, Next.js, and PostgreSQL, integrating frontend, backend,and database layers to boost user engagement by 10% and accelerate sales growth.",
+      "Led frontend development of admin/user portals with Next.js and React.js, streamlining internal workflows and improving operational efficiency by 25%.",
+      "Delivered mobile/web apps ahead of deadlines using React Native, Expo, and Redux, including secure auth systems (login/registration) with zero security breaches.",
+      "Designed a scalable appointment booking system for patients/doctors using Node.js and Microservices, reducing scheduling errors by 50% and improving user retention.",
     ],
   },
   {
-    review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+    review: "",
+    imgPath: "Masai School",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Full stack developer (Training/Bootcamp)",
+    date: "August 2021 - March 2022",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Led a team of 5 developers to complete a project assignment, demonstrating leadership and project management skills.",
     ],
   },
 ];
@@ -249,20 +253,19 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    link: "https://github.com/sacheenShyama",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    link: "https://x.com/SachinKuma41089",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/sachinshyama/",
   },
 ];
 

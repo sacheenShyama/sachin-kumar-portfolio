@@ -7,7 +7,7 @@ import ExperienceSection from "./sections/ExperienceSection";
 import TechStack from "./sections/TechStack";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-
+import SplashCursor from "../CursorAnimation/SplashCursor/SplashCursor";
 const App = () => {
   return (
     <>
@@ -19,6 +19,7 @@ const App = () => {
       <TechStack />
       <Contact />
       <Footer />
+      <SplashCursor />
     </>
   );
 };
