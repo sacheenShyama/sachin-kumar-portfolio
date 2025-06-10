@@ -4,7 +4,7 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import NavBar from "./components/NavBar";
 import FeatureCards from "./sections/FeatureCards";
 import ExperienceSection from "./sections/ExperienceSection";
-import TechStack from "./sections/TechStack";
+import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import SplashCursor from "../CursorAnimation/SplashCursor/SplashCursor";
@@ -13,10 +13,10 @@ const App = () => {
     <>
       <NavBar />
       <Hero />
-      <ShowcaseSection />
+      {/* <ShowcaseSection /> */}
       <FeatureCards />
       <ExperienceSection />
-      <TechStack />
+      <Skills />
       <Contact />
       <Footer />
       <SplashCursor />

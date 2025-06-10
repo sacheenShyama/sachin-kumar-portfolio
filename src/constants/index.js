@@ -11,10 +11,6 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
 ];
 
 const words = [
@@ -269,6 +265,45 @@ const socialImgs = [
   },
 ];
 
+const technicalSkills = [
+  {
+    main: "Frontend",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Redux",
+      "Vite",
+      "WordPress",
+      "UI/UX",
+    ],
+  },
+  { main: "Backend", skills: ["Node.js", "Express.js", "Javascript"] },
+  {
+    main: "Database",
+    skills: ["MongoDB", "PostgreSQL", "Microsoft SQL Server"],
+  },
+  {
+    main: "Mobile",
+    skills: ["React Native", "Expo", "Android Studio", "Xcode"],
+  },
+  {
+    main: "Tools & Platforms",
+    skills: ["Git", "GitHub", "Figma", "Postman", "CI/CD", "VsCode"],
+  },
+  {
+    main: "Soft Skills",
+    skills: [
+      "Problem Solving",
+      "Communication",
+      "Teamwork",
+      "Time Management",
+      "Adaptability",
+    ],
+  },
+];
 export {
   words,
   abilities,
@@ -281,4 +316,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  technicalSkills,
 };
